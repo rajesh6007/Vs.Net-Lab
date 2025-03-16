@@ -1,2 +1,25 @@
 Navigate to the folder in file manager and then replace the file path with 'cmd' to open terminal with that path
 In the terminal write 'code .' to open VS code with folder of that path open
+
+create file
+>>git add .
+>>git status
+>>git commit -m "message"
+>>git push -u origin master
+>>git log
+>>git config --list
+>>git push origin master
+>>git push -u origin master       (for first push)
+>>git remote add origin "repo url" 
+
+Shows the branch of the git repo
+>>git branch 
+
+Create a branch named develop
+>>git branch develop
+
+Change branch
+>>git checkout master
+
+Change switch
+>>git switch master
