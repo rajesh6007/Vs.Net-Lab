@@ -1,0 +1,2 @@
+Navigate to the folder in file manager and then replace the file path with 'cmd' to open terminal with that path
+In the terminal write 'code .' to open VS code with folder of that path open
