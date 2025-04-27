@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|d:\\\u002B my\\7sem git proj\\vbdotnet\\git_lab1\\project\\assignment1\\mathoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|solutionrelative:mathoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|d:\\\u002B my\\7sem git proj\\vbdotnet\\git_lab1\\project\\assignment1\\inheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|solutionrelative:inheritance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|d:\\\u002B my\\7sem git proj\\vbdotnet\\git_lab1\\project\\assignment1\\palindrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|solutionrelative:palindrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|d:\\\u002B my\\7sem git proj\\vbdotnet\\git_lab1\\project\\assignment1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C2C2AAD-F480-43A0-B753-DC50268C449A}|Assignment1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Palindrom.cs",
+              "DocumentMoniker": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\Palindrom.cs",
+              "RelativeDocumentMoniker": "Palindrom.cs",
+              "ToolTip": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\Palindrom.cs",
+              "RelativeToolTip": "Palindrom.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:44:25.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MathOperation.cs",
+              "DocumentMoniker": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\MathOperation.cs",
+              "RelativeDocumentMoniker": "MathOperation.cs",
+              "ToolTip": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\MathOperation.cs",
+              "RelativeToolTip": "MathOperation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:42:10.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inheritance.cs",
+              "DocumentMoniker": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\Inheritance.cs",
+              "RelativeDocumentMoniker": "Inheritance.cs",
+              "ToolTip": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\Inheritance.cs",
+              "RelativeToolTip": "Inheritance.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:39:11.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u002B My\\7sem Git Proj\\VBDotNet\\Git_lab1\\Project\\Assignment1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:38:25.426Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
