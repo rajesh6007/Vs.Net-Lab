@@ -1,0 +1,80 @@
+﻿@page "/"
+@using System.ComponentModel.DataAnnotations
+
+<h3>Form Handling Example</h3>
+
+<EditForm Model="@userModel" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <InputText id="username" class="form-control" TValue="string" @bind-Value="userModel.Username" />
+    </div>
+
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <InputNumber id="age" class="form-control" TValue="int" @bind-Value="userModel.Age"/>
+    </div>
+
+    <div class="form-group">
+        <label for="hobbies">Hobbies:</label>
+        <InputCheckbox id="sports" TValue="string" /> Sports
+        <InputCheckbox id="reading" TValue="string"/> Reading
+        <InputCheckbox id="music" TValue="string"/> Music
+     
+    </div>
+
+    <div class="form-group">
+        <label for="city">City:</label>
+        <InputSelect id="city" class="form-control" TValue="string" @bind-Value="userModel.City">
+            <option value="">Select City</option>
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+        </InputSelect>
+    </div>
+
+    <div class="form-group">
+        <label for="bio">Bio:</label>
+        <InputTextArea id="bio" class="form-control"/>]
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</EditForm>
+
+<p>@message</p>
+
+@code {
+    private UserModel userModel = new UserModel();
+    private string message = string.Empty;
+
+    private void HandleValidSubmit()
+    {
+        message = "Form submitted successfully!";
+    }
+
+    public class UserModel
+    {
+        [Required(ErrorMessage = "Username is required.")]
+        public string Username { get; set; }
+
+        [Range(18, 100, ErrorMessage = "Age must be between 18 and 100.")]
+        public int Age { get; set; }
+
+        public Hobbies Hobbies { get; set; } = new Hobbies();
+
+        [Required(ErrorMessage = "City is required.")]
+        public string City { get; set; }
+
+        [Required(ErrorMessage = "Bio is required.")]
+        public string Bio { get; set; }
+    }
+
+    public class Hobbies
+    {
+        public bool Sports { get; set; }
+        public bool Reading { get; set; }
+        public bool Music { get; set; }
+    }
+}

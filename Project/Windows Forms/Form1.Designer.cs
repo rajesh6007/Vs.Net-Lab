@@ -1,6 +1,6 @@
 ﻿namespace Windows_Forms
 {
-    partial class Form1
+    partial class Form1 : Form
     {
         /// <summary>
         ///  Required designer variable.
@@ -40,32 +40,37 @@
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
-            SuspendLayout();
+          
             // 
             // button1
             // 
-            button1.Location = new Point(558, 141);
+            button1.Location = new Point(539, 130);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Padding = new Padding(10, 5, 10, 5);
+            button1.Size = new Size(94, 34);
             button1.TabIndex = 0;
             button1.Text = "ADD";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
-            button2.Location = new Point(558, 192);
+            button2.Location = new Point(539, 192);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(94, 32);
             button2.TabIndex = 1;
             button2.Text = "MUL";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(384, 63);
+            label1.Font = new Font("Segoe UI Black", 20F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(316, 55);
             label1.Name = "label1";
-            label1.Size = new Size(61, 15);
+            label1.Padding = new Padding(50, 5, 50, 5);
+            label1.Size = new Size(250, 47);
             label1.TabIndex = 2;
             label1.Text = "Calculator";
             label1.Click += label1_Click;
@@ -73,27 +78,30 @@
             // label2
             // 
             label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 14F);
             label2.Location = new Point(137, 141);
             label2.Name = "label2";
-            label2.Size = new Size(60, 15);
+            label2.Size = new Size(96, 25);
             label2.TabIndex = 3;
             label2.Text = "Number 1";
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 14F);
             label3.Location = new Point(137, 209);
             label3.Name = "label3";
-            label3.Size = new Size(60, 15);
+            label3.Size = new Size(96, 25);
             label3.TabIndex = 4;
             label3.Text = "Number 2";
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 14F);
             label4.Location = new Point(137, 272);
             label4.Name = "label4";
-            label4.Size = new Size(39, 15);
+            label4.Size = new Size(62, 25);
             label4.TabIndex = 5;
             label4.Text = "Result";
             // 
@@ -103,6 +111,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(161, 23);
             textBox1.TabIndex = 6;
+            textBox1.KeyPress += textBox1_KeyPress;
             // 
             // textBox2
             // 
@@ -110,40 +119,46 @@
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(161, 23);
             textBox2.TabIndex = 7;
+            textBox2.KeyPress += textBox2_KeyPress;
             // 
             // textBox3
             // 
             textBox3.Location = new Point(268, 272);
             textBox3.Name = "textBox3";
+            textBox3.ReadOnly = true;
             textBox3.Size = new Size(161, 23);
             textBox3.TabIndex = 8;
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // button3
             // 
-            button3.Location = new Point(669, 141);
+            button3.Location = new Point(669, 130);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(89, 34);
             button3.TabIndex = 9;
             button3.Text = "SUB";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
             button4.Location = new Point(669, 192);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(89, 32);
             button4.TabIndex = 10;
             button4.Text = "DIV";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
-            button5.Location = new Point(611, 244);
+            button5.Location = new Point(606, 248);
             button5.Name = "button5";
-            button5.Size = new Size(75, 23);
+            button5.Size = new Size(88, 34);
             button5.TabIndex = 11;
             button5.Text = "CLS";
             button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // Form1
             // 

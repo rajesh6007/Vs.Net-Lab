@@ -1,0 +1,52 @@
+﻿@page "/Component1"
+
+<link href="css/site.css" rel="stylesheet" />
+
+<div class="body_section">
+
+        <div class="inner_container">
+
+            <div class="first_col">
+                <div><a id="logoname" href="index.php">Anime Go</a></div>
+            </div>
+
+            <p class="title_text" style="font-size: 25px;">
+                Admin Login
+            </p>
+
+            <form action="" method="post">
+
+                <div class="input_box">
+                    <input type="email" name="email" autofocus required placeholder="Email">
+                </div>
+
+                <div class="input_box">
+                    <input type="password" name="password" required placeholder="Password">
+                </div>
+
+                <div class="error-margin-fix"></div>
+
+
+                <div class="button" style="padding-bottom: 6%;">
+                    <div>
+                        <button type="submit">Log in</button>
+                    </div>
+                </div>
+                
+                <div class="register_text">
+                    <p>Don't have an account? </p>
+                        <NavLink class="nav-link" href="Component">
+                            <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span>Register
+                           
+                        </NavLink>
+                </div>
+               
+
+            </form>
+
+        </div>
+    </div>
+
+@code {
+
+}

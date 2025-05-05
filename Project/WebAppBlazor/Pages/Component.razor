@@ -1,0 +1,172 @@
+﻿@page "/Component"
+
+<link href="css/site.css" rel="stylesheet" />
+
+    <style>
+
+        .body_section {
+
+            height: 500px;
+           width: 450px;    
+        }
+    
+        .inner_container {
+            width: 400px;
+        }
+
+        .inner_container .input_box{
+            width: 380px;
+            margin:auto;
+        }
+
+        .inner_container .input_box input{
+            width: 100%;
+        }
+
+        .inner_container .button{
+            padding-right: 0;
+        }
+
+        .inner_container .button div{
+            width: 100%;
+            float: none;
+            text-align: center;
+        }
+
+        .inner_container .button button{
+            width: 87%;
+            height: 45px;
+            border-radius: 50px;
+        }
+
+        .inner_container .forget_password {
+            text-align: center;
+            margin-top: 15px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .inner_container .forget_password a{
+            text-decoration: none;
+            color: rgba(0,0,0,.7);
+            font-size: 16px;
+            transition: 0.2s;
+        }
+        .inner_container .forget_password a:hover{
+            text-decoration: underline;
+            color: #5271ff;
+        }
+
+        
+        .inner_container .register_text {
+            text-align: center;
+            margin-top: 0px;
+            font-size: 16px;
+            color: rgba(0, 0, 0, .7);
+        }
+
+        .inner_container .register_text a {
+            text-decoration: none;
+            color: #5271ff;
+            transition: 0.2s;
+        }
+
+        .inner_container .register_text a:hover {
+            text-decoration: underline;
+        }
+
+        .inner_container .copyright{
+            margin-top: 9%;
+        }
+
+
+
+    /* ... existing styles ... */
+    .inner_container{
+        position: relative;
+    }
+
+    .inner_container .input_box input {
+        width: 100%;
+    }
+
+    #error-message1,
+    #error-message2{
+        color: red;
+        position: absolute;
+        font-size: 15px;
+        opacity: 1; /* Change opacity to 1 */
+        transition: opacity 0.5s ease; /* Add transition property */
+        margin-top: 10px; /* Adjust this value as needed */
+    }
+
+    #error-message2{
+        top: 24%; /* Position it below the input */
+        left: 5%;
+    }
+
+    #error-message1{
+        top: 24%; /* Position it below the input */
+        left: 20%;
+    }
+
+
+
+
+    </style>
+
+<div class="body_section">
+
+        <div class="inner_container">
+
+            <div class="first_col">
+                <div><a id="logoname" href="index.php">Anime Go</a></div>
+            </div>
+
+            <p class="title_text" style="font-size: 25px;">
+               Admin SignUp
+            </p>
+            <form action="" method="post">
+
+                <div class="input_box">
+                    <input type="text" name="name" required placeholder="Enter your name">
+                </div>
+
+                <div class="input_box">
+                    <input type="email" name="email" autofocus required placeholder="Email">
+                </div>
+
+                <div class="input_box">
+                    <input type="password" name="password" required placeholder="Password">
+                </div>
+
+                <div class="input_box">
+                    <input type="password" name="re-password" required placeholder="re-Password">
+                </div>
+
+
+
+                <div class="button" style="padding-bottom: 6%;">
+                    <div>
+                        <button type="submit">Sign up</button>
+                    </div>
+                </div>
+
+                <div class="register_text">
+                    <p>Already have an account? </p>
+                     <NavLink class="nav-link" href="Component1">
+                            <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span>Log In
+                           
+                        </NavLink>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+
+@code {
+
+}
+
