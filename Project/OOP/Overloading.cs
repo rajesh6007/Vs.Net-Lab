@@ -82,9 +82,17 @@ namespace OOP
         public double findplaindrom(int a)
         {
             string string_number = Convert.ToString(a);
-            char[] chararray = string_number.ToCharArray();     //Change to the array of character 
-            Array.Reverse(chararray);                           //Char of array has reverse built in function 
-            //string reversed_string = string_number.Reverse();    
+            char[] chararray = string_number.ToCharArray();         //Change to the array of character 
+            string reversed_string = Array.Reverse(chararray);      //Char of array has reverse built in function 
+            //string reversed_string = string_number.Reverse();  
+            if (reversed_string == string_number)
+            {
+                Console.WriteLine("The number " + a + "is palindrom");
+            }
+            else
+            {
+                Console.WriteLine("The number " + a + "is not palindrom");
+            }
             Console.WriteLine(chararray);
             //Console.WriteLine(reversed_string);
             return 0;
